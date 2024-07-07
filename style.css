@@ -1,0 +1,224 @@
+/*General Style*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+.contianer {
+    display: flex;
+}
+
+/*Start Left Side Style*/
+.container-left {
+    width: 50%;
+    height: 100vh;
+    position: relative;
+}
+
+.container-left .left-block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.container-left .left-title .title {
+    position: relative;
+    font-size: 30px;
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 45px;
+    font-weight: bold;
+}
+
+.container-left .left-title .text-after-login {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+    unicode-bidi: isolate;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.forms .form-content .input-boxes {
+    margin-top: 30px;
+}
+
+.forms .form-content .input-box {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    margin: 10px 0;
+    position: relative;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-content .input-box i {
+    position: absolute;
+    font-size: 17px;
+    width: 24px;
+    height: 24px;
+    gap: 0px;
+    opacity: 0px;
+    text-align: left;
+    left: 15px;
+    top: 15px;
+}
+
+.form-content .input-box input {
+    height: 100%;
+    width: 100%;
+    padding: 0 40px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 16px;
+    border: 1px solid #F0EDFFCC;
+    background: #F0EDFFCC;
+    text-transform: capitalize;
+    width: 364px;
+    height: 52px;
+    top: 228px;
+}
+
+.forms .form-content .button input {
+    color: #fff;
+    padding: 0;
+    cursor: pointer;
+    border-radius: 16px;
+    opacity: 0px;
+    background: linear-gradient(99.78deg, #9181F4 -5.85%, #5038ED 109.55%);
+    box-shadow: 0px 8px 21px 0px #00000029;
+    width: 124px;
+    height: 52px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.forms .form-content .input-boxes .text-after-login-button {
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.forms .form-content .input-boxes .text-after-login-button:before,
+.forms .form-content .input-boxes .text-after-login-button:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid #F0EDFF;
+    margin: auto;
+}
+
+
+.forms .form-content .input-boxes .text-after-login-button span {
+    font-weight: 400;
+    color: #525252;
+}
+
+.forms .form-content .input-boxes .login-with-google,
+.forms .form-content .input-boxes .login-with-facebook {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    display: flex;
+    justify-content: center;
+    width: 364px;
+    height: 52px;
+    border-radius: 16px;
+    border: 1px solid #F0EDFF;
+    margin: 15px auto 0 auto;
+}
+
+.forms .form-content .input-boxes .login-with-google img,
+.forms .form-content .input-boxes .login-with-facebook img {
+    width: 30px;
+    height: 30px;
+    margin: auto 0;
+    padding-right: 5px;
+}
+
+.forms .form-content .input-boxes .login-with-google .text,
+.forms .form-content .input-boxes .login-with-facebook .text {
+    margin: auto 0;
+}
+
+.forms .form-content .input-boxes .login-with-google span,
+.forms .form-content .input-boxes .login-with-facebook span {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+/*Start Right Side Style*/
+.container-right {
+    width: 50%;
+    background-image: url('Images/Rectangle4.png');
+    height: 100vh;
+}
+
+.container-right .right-content {
+    position: relative;
+    width: 350px;
+    height: 450px;
+    margin: 0 auto;
+    top: 80px;
+    gap: 0px;
+    border-radius: 46px;
+    opacity: 0px;
+    background: #FFFFFF36;
+    border: 1px solid #fff;
+}
+
+.container-right .right-content .right-image {
+    position: absolute;
+    right: -80px;
+    bottom: 0;
+    margin-bottom: -3px;
+}
+
+.container-right .right-content .right-title {
+    position: absolute;
+    width: 184px;
+    height: 230px;
+    top: 50px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 46px;
+    text-align: left;
+    color: #FFFFFF;
+    left: 30px;
+}
+
+.container-right .right-content .right-icon {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    width: 80px;
+    height: 80px;
+    bottom: 70px;
+    left: -40px;
+}
+
+.container-right .right-content .right-icon img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
