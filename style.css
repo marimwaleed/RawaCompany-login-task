@@ -170,6 +170,7 @@ form {
 .container-right {
     width: 50%;
     background-image: url('Images/Rectangle4.png');
+    background-size: cover;
     height: 100vh;
 }
 
@@ -222,3 +223,19 @@ form {
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
 }
+/*Media Queiry*/
+@media (max-width: 990px) {
+    .container-right{
+      display: none;
+    }
+    .container-left{
+        margin: 0 auto;
+    }
+    .form-content .login-form,
+    .form-content .text-after-login-button ,
+     .forms .form-content .input-boxes .login-with-google 
+    .forms .form-content .input-boxes .login-with-facebook {
+      width: 100%;
+    }
+  }
+  
